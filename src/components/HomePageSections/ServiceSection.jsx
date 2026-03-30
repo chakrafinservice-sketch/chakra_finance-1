@@ -59,6 +59,7 @@ export default function ServiceSections() {
         "Flexible funds to manage short-term cash flow needs and unexpected expenses.",
       long: "At Chakra Financial Services, we understand that businesses and individuals occasionally need extra funds to manage day-to-day expenses or deal with unexpected shortfalls. Our overdraft and cash credit facilities provide access to additional funds beyond your account balance, offering a reliable financial safety net to cover short-term cash flow gaps with flexibility and convenience.",
     },
+    // updated
     {
       id: 8,
       title: "LC / BG / SBLC Facilities",
