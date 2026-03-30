@@ -61,7 +61,7 @@ const servicesdata = [
   {
     id: 8,
     title: "LC / BG / SBLC Facilities",
-    img: "/Images/services/lcbg.jpeg",
+    img: "/Images/services/lcbg.webp",
     short:
       "Secure financial instruments to support domestic and international trade.",
     long: "At Chakra Financial Services, we provide reliable and structured trade finance solutions in India to help businesses manage cash flow, reduce risk, and expand globally. Our expertise in Letter of Credit (LC), Bank Guarantee (BG), and Purchase Invoice Discounting(PID) ensures smooth and secure financial transactions for importers, exporters, and businesses.",

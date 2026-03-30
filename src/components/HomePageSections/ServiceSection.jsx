@@ -62,7 +62,7 @@ export default function ServiceSections() {
     {
       id: 8,
       title: "LC / BG / SBLC Facilities",
-      img: "/Images/services/lcbg.jpeg",
+      img: "/Images/services/lcbg.webp",
       short:
         "Secure financial instruments to support domestic and international trade.",
       long: "At Chakra Financial Services, we understand the importance of trust and security in business transactions. Our Letter of Credit (LC), Bank Guarantee (BG), and Standby Letter of Credit (SBLC) facilities provide strong financial backing to ensure smooth and secure domestic and international trade. These instruments help buyers and sellers fulfill contractual obligations with confidence and peace of mind.",
