@@ -38,7 +38,7 @@ export default function FloatingBar() {
 
       {/* LinkedIn */}
       <a
-        href="https://www.linkedin.com/company/sunrise-morning/"
+        href="https://www.linkedin.com/company/chakra-financial-services/"
         target="_blank"
         className="w-14 h-14 flex items-center justify-center rounded-full text-white text-xl
         bg-blue-700 shadow-lg hover:scale-110 transition-all duration-300"

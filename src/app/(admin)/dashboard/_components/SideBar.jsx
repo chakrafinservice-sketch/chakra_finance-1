@@ -117,7 +117,7 @@ export default function Sidebar() {
         <button
           onClick={() => {
             pb.authStore.clear();
-            router.replace("/admin-login");
+            router.replace("/login");
           }}
           className="w-full flex items-center gap-2 px-3 py-2 border rounded hover:bg-black hover:text-white transition"
         >
