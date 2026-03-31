@@ -60,7 +60,7 @@ const servicesdata = [
   },
   {
     id: 8,
-    title: "LC / BG / SBLC Facilities",
+    title: "LC / BG / Purchase Invoice Discounting",
     img: "/Images/services/lcbg.webp",
     short:
       "Secure financial instruments to support domestic and international trade.",
