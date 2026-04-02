@@ -138,7 +138,7 @@ export default function Footer() {
 
             <li className="flex gap-3 items-start">
               <FaPhoneAlt className="text-[#F47C20] mt-1" />
-              <span>+91 9030972851</span>
+              <span>+91 93920 37809</span>
             </li>
           </ul>
         </div>

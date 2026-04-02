@@ -96,7 +96,7 @@ export default function ContactClient() {
 
               <div>
                 <p className="text-[#1E3A5F] text-sm">Call Us</p>
-                <p className="text-[#1E3A5F] font-semibold">+91 9030972851</p>
+                <p className="text-[#1E3A5F] font-semibold">+91 93920 37809</p>
               </div>
             </div>
 
