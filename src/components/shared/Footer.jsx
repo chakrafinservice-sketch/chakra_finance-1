@@ -145,11 +145,11 @@ export default function Footer() {
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t flex justify-around border-white/10 py-5 text-center text-sm text-white/60">
+      <div className="border-t lg:flex justify-around border-white/10 py-5 text-center text-sm text-white/60">
         <div>
           © {new Date().getFullYear()} Chakra Financial Services. All rights reserved.
         </div>
-        <div>
+        <div className="pt-3 lg:pt-0">
           Design & Developed by <a href="https://www.ssdtechinfrasolutions.in/" target="_blank">SSD Techinfra solutions</a>
         </div>
       </div>
