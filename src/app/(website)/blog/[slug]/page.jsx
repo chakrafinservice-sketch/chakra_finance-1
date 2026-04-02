@@ -30,7 +30,7 @@ export default async function BlogDetail({ params }) {
   const { slug } = await params; // ✅ FIX
 
   try {
-    const blog = await pb
+    const blog = await pb   //pb
       .collection("blogs")
       .getFirstListItem(`slug="${slug}" && isPublished=true`);
 
