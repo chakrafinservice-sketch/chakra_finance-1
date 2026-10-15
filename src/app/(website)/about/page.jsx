@@ -43,22 +43,25 @@ export const metadata = {
 };
 
 export default function AboutPage() {
-  return <AboutClient />;
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FinancialService",
+            name: "Chakra Financial Services",
+            url: "https://www.chakrafinances.com",
+            logo: "https://www.chakrafinances.com/logo.png",
+            description:
+              "Chakra Financial Services provides loan advisory, personal loans, business loans, mortgage loans and insurance services across India.",
+            areaServed: "India",
+            serviceType: "Financial Advisory",
+          }),
+        }}
+      />
+      <AboutClient />
+    </>
+  );
 }
-
-<script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "FinancialService",
-      name: "Chakra Financial Services",
-      url: "https://www.chakrafinances.com",
-      logo: "https://www.chakrafinances.com/logo.png",
-      description:
-        "Chakra Financial Services provides loan advisory, personal loans, business loans, mortgage loans and insurance services across India.",
-      areaServed: "India",
-      serviceType: "Financial Advisory",
-    }),
-  }}
-/>
