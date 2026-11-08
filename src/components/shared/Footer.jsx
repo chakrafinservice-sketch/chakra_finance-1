@@ -139,10 +139,10 @@ export default function Footer() {
               <span>info@chakrafinances.com</span>
             </li>
 
-            <li className="flex gap-3 items-start">
+            {/* <li className="flex gap-3 items-start">
               <FaPhoneAlt className="text-[#F47C20] mt-1" />
               <span>+91 93920 37809</span>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
