@@ -8,7 +8,7 @@ export default function FloatingBar() {
 
       {/* WhatsApp */}
       <a
-        {/* href="https://wa.me/919392037809" */}
+        // href="https://wa.me/919392037809"
         href="#"
         target="_blank"
         className="w-14 h-14 flex items-center justify-center rounded-full text-white text-xl
