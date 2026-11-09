@@ -86,7 +86,7 @@ export default function ContactClient() {
 
           {/* Contact Cards */}
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-10">
+          <div className="grid grid-cols-1 sm:grid-cols-1 gap-4 mt-10">
             {/* Phone */}
 
             {/* <div className="flex items-center gap-3 bg-white/40 backdrop-blur-md p-5 rounded-xl border border-white/20">
