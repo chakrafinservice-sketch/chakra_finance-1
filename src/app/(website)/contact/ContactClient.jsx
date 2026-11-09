@@ -89,7 +89,7 @@ export default function ContactClient() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-10">
             {/* Phone */}
 
-            <div className="flex items-center gap-3 bg-white/40 backdrop-blur-md p-5 rounded-xl border border-white/20">
+            {/* <div className="flex items-center gap-3 bg-white/40 backdrop-blur-md p-5 rounded-xl border border-white/20">
               <div className="bg-orange-500 p-3 rounded-full">
                 <Phone className="text-white" size={20} />
               </div>
@@ -98,7 +98,7 @@ export default function ContactClient() {
                 <p className="text-[#1E3A5F] text-sm">Call Us</p>
                 <p className="text-[#1E3A5F] font-semibold">+91 93920 37809</p>
               </div>
-            </div>
+            </div> */}
 
             {/* Email */}
 
@@ -109,12 +109,14 @@ export default function ContactClient() {
 
               <div>
                 <p className="text-[#1E3A5F] text-sm">Email Us</p>
-                <p className="text-[#1E3A5F] font-semibold text-sm">
+                <a href="mailto:info@chakrafinances.com"><p className="text-[#1E3A5F] font-semibold text-sm">
                   info@chakrafinances.com
                 </p>
-                <p className="text-[#1E3A5F] text-sm">
+                </a>
+                <a href="mailto:chakrafinservice@gmail.com"><p className="text-[#1E3A5F] text-sm">
                   chakrafinservice@gmail.com
                 </p>
+                </a>
               </div>
             </div>
           </div>
