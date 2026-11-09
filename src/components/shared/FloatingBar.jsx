@@ -9,7 +9,7 @@ export default function FloatingBar() {
       {/* WhatsApp */}
       <a
         // href="https://wa.me/919392037809"
-        href="#"
+        href="mailto:info@chakrafinances.com"
         target="_blank"
         className="w-14 h-14 flex items-center justify-center rounded-full text-white text-xl
         bg-green-500 shadow-lg hover:scale-110 transition-all duration-300"
