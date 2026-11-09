@@ -134,10 +134,12 @@ export default function Footer() {
               </span>
             </li>
 
-            <li className="flex gap-3 items-start">
-              <FaEnvelope className="text-[#F47C20] mt-1" />
-              <span>info@chakrafinances.com</span>
-            </li>
+            <a href="mailto:info@chakrafinances.com">
+              <li className="flex gap-3 items-start">
+                <FaEnvelope className="text-[#F47C20] mt-1" />
+                <span>info@chakrafinances.com</span>
+              </li>
+            </a>
 
             {/* <li className="flex gap-3 items-start">
               <FaPhoneAlt className="text-[#F47C20] mt-1" />
